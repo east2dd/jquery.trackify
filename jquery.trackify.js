@@ -51,7 +51,7 @@
           rate = 1;
         }
 
-        elem.trigger("trackify:pos", [elem, rate]);
+        elem.trigger("trackify:update", [elem, rate]);
         return rate;
       }
 
