@@ -5,6 +5,7 @@ jquery scroll and resize trigger a event to element with vertical invisible perc
 
 This plugin fire the "trackify:update" event with vertical invisible percentage of the element when window's scroll and resize event occurs.
 
+== Usage ==
 Example:
 
 <div class="featured-overlay">
@@ -19,8 +20,6 @@ $(function(){
     });
 });
 </script>
-
- ==== OR ====
 
 <script>
 $(function(){
